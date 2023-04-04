@@ -1,9 +1,9 @@
 # deep-learning-challenge
-##Overview
+## Overview
 
-##Results
+## Results
 
-###Data Preprocessing
+### Data Preprocessing
 
 - The target variable for the model is the ''IS_SUCCESSFUL'' column. We are trying to determine whether or not
 an organization will be successful in using the issued funds for their stated purpose. 
@@ -13,7 +13,7 @@ an organization will be successful in using the issued funds for their stated pu
 - The ''EIN'' and ''NAME'' columns are removed from the input data because they are neither targets nor features that help to determine whether or not an organization will be successful in using the funds issued.
 
 
-###Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 For the first model, I used:
@@ -32,6 +32,6 @@ For the first model, I used:
 - Finally, I used Keras Tuner to try to find the best model. This resulted in a model with 2 hidden layers, 64 neurons in the first hidden layer, 32 neurons in the second hidden layer, and 1 neuron in the output layer. The model had an accuracy of 73.6%.
 
 
-##Summary
+## Summary
 
 The results of the model are far from optimal, but certainly better than random chance. The model could be improved by using more data, I believe there simply isn't enough data points to make an accurate prediction. However, this would be a good way to pre-approve organizations for funding. Whichever ones aren't approved could be given a second look by a human. This would save the foundation a lot of time and money.
