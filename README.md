@@ -1,4 +1,4 @@
-# deep-learning-challenge
+# Deep Learning Fundraising Classification Neural Network
 ## Overview
 
 ## Results
